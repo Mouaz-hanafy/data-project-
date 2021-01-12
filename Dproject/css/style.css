@@ -43,6 +43,8 @@ body .dachboard {
   width: 60%;
 }
 
+.form-group {margin-bottom: 50px;}
+
 .register-word a {
   text-decoration: none;
 }
@@ -58,20 +60,18 @@ body .dachboard {
   margin-right: auto;
 }
 
-.per-1{background: url("../images/tarek.jpg") no-repeat;}
-.per-2{background: url("../images/yasser.jpg") no-repeat;}
-.per-3{background: url("../images/twitee.jpg") no-repeat;}
-.per-4{background: url("../images/anas.jpg") no-repeat;}
-.per-5{background: url("../images/mouaz.jpg") no-repeat;}
-
 .about-header {
-  width: 42em;
   margin-left: auto;
   margin-right: auto;
 }
 
-.btn-outline-light i {vertical-align: middle;}
-
+.about-carousel {
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  background: url("../images/a1.webp") no-repeat fixed center;
+  background-size: cover;
+}
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
@@ -234,16 +234,13 @@ box-shadow: -35px 17px 37px 39px rgba(0,0,0,0.8);
   width: 100%;
 }
 
-.main-container-1 .carousel-inner .mm {
-  height: 400px;
-}
-
 .main-container-1 .carousel-inner h5{
   text-shadow: 1px 1px #333;
+  font-size: 2.5em;
 }
 
 .main-container-1 .carousel-inner .carousel-caption{
-  background: rgba(255, 255, 255, .25);
+  background: rgba(0, 0, 0, .7);
 }
 
 .featurette-divider {
